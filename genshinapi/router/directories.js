@@ -1,11 +1,11 @@
-import path from 'path';
+const path = require('path');
 
 const assetDirectory = (category) => {
-    path.join(__dirname, '../public/assets', category);
+    return path.join(__dirname, '../public/assets', category);
 }
 
 const dataDirectory = (category) => {
-    path.join(__dirname, '../public/data', category);
+    return path.join(__dirname, '../public/data', category);
 }
 
 module.exports = {
