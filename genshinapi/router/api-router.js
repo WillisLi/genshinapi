@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const Api = require('./helpers');
-const {dataDirectory} = require('./directories')
+const {assetDirectory, dataDirectory} = require('./directories')
 router.get('/', (req, res, next) => {
     const list = Api.getCategoryList()
     res.status(200).json(list);
@@ -35,13 +35,14 @@ router.get('/:category/:name/images', (req, res) => {
 router.get('/:category/:name/:imageType', (req, res) => {
     const { category, name, imageType } = req.params;
 
-    Api.getImageByType(category, name, imageType)
-        .then(imageExists => {
-            res.status(200).json(imageExists);
-        })
-        .catch(() => {
-            res.status(404).json({message: "Image not found."});
-        })
+    // Api.getImageByType(category, name, imageType)
+    //     .then(imageExists => {
+    //         res.status(200).json(imageExists);
+    //     })
+    //     .catch(() => {
+    //         res.status(404).json({message: "Image not found."});
+    //     })
+    res.sendFile(assetDirectory(`/${category}/${name}/${imageType}.png`));
 })
 
 module.exports = router;

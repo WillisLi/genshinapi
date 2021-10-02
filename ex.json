@@ -33,59 +33,59 @@
                 {
                     "type": "1-Hit DMG",
                     "value": "%"
-                    },
-                    {
+                },
+                {
                     "type": "2-Hit DMG",
                     "value": "%"
-                    },
-                    {
+                },
+                {
                     "type": "3-Hit DMG",
                     "value": "%"
-                    },
-                    {
+                },
+                {
                     "type": "4-Hit DMG",
                     "value": "%"
-                    },
-                    {
+                },
+                {
                     "type": "5-Hit DMG",
                     "value": "%"
-                    },
-                    {
+                },
+                {
                     "type": "Aimed Shot",
                     "value": "%"
-                    },
-                    {
+                },
+                {
                     "type": "Fully-Charged Aimed Shot",
                     "value": "%"
-                    },
-                    {
+                },
+                {
+                    "type": "Charged Attack DMG",
+                    "value": "%"
+                },
+                {
+                    "type": "Charged Attack Spinning DMG",
+                    "value": "%"
+                },
+                {
+                    "type": "Charged Attack Final DMG",
+                    "value": "%"
+                },
+                {
+                    "type": "Charged Attack Stamina Cost",
+                    "value": ""
+                },
+                {
+                    "type": "Max Duration",
+                    "value": "s"
+                },
+                {
                     "type": "Plunge DMG",
                     "value": "%"
-                    },
-                    {
-                        "type": "Charged Attack DMG",
-                        "value": "%"
-                    },
-                    {
-                        "type": "Charged Attack Spinning DMG",
-                        "value": "%"
-                    },
-                    {
-                        "type": "Charged Attack Final DMG",
-                        "value": "%"
-                    },
-                    {
-                        "type": "Charged Attack Stamina Cost",
-                        "value": "/s"
-                    },
-                    {
-                        "type": "Max Duration",
-                        "value": "s"
-                    },
-                    {
+                },
+                {
                     "type": "Low/High Plunge DMG",
                     "value": "%/%"
-                    }
+                }
             ]
         },
         {
@@ -95,12 +95,12 @@
             "excerpt": "",
             "info": [
                 {
-                "type": "",
-                "value": ""
+                    "type": "",
+                    "value": ""
                 },
                 {
-                "type": "CD",
-                "value": ""
+                    "type": "CD",
+                    "value": ""
                 }
             ]
         },
@@ -111,76 +111,76 @@
             "excerpt": "",
             "info": [
                 {
-                "type": "",
-                "value": ""
+                    "type": "",
+                    "value": ""
                 },
                 {
-                "type": "CD",
-                "value": ""
+                    "type": "CD",
+                    "value": ""
                 },
                 {
-                "type": "Energy Cost",
-                "value": ""
+                    "type": "Energy Cost",
+                    "value": ""
                 }
             ]
         }
     ],
     "passiveTalents": [
-        {
-            "title": "",
-            "requirement": "Unlocks at Character Ascension Phase 1",
-            "description": "",
-            "ascensionlevel": 1
+            {
+                "title": "",
+                "requirement": "Unlocks at Character Ascension Phase 1",
+                "description": "",
+                "ascensionlevel": 1
             },
             {
-            "title": "",
-            "requirement": "Unlocks at Character Ascension Phase 4",
-            "description": "",
-            "ascensionlevel": 4
+                "title": "",
+                "requirement": "Unlocks at Character Ascension Phase 4",
+                "description": "",
+                "ascensionlevel": 4
             },
             {
-            "title": "",
-            "requirement": "None",
-            "description": "",
-            "ascensionlevel": 0
+                "title": "",
+                "requirement": "None",
+                "description": "",
+                "ascensionlevel": 0
             }
     ],
     "constellations": [
-        {
-        "title": "",
-        "unlock": "Constellation Lv. 1",
-        "description": "",
-        "constellationlevel": 1
-        },
-        {
-        "title": "",
-        "unlock": "Constellation Lv. 2",
-        "description": "",
-        "constellationlevel": 2
-        },
-        {
-        "title": "",
-        "unlock": "Constellation Lv. 3",
-        "description": "",
-        "constellationlevel": 3
-        },
-        {
-        "title": "",
-        "unlock": "Constellation Lv. 4",
-        "description": "",
-        "constellationlevel": 4
-        },
-        {
-        "title": "",
-        "unlock": "Constellation Lv. 5",
-        "description": "",
-        "constellationlevel": 5
-        },
-        {
-        "title": "",
-        "unlock": "Constellation Lv. 6",
-        "description": "",
-        "constellationlevel": 6
-        }
+            {
+                "title": "",
+                "unlock": "Constellation Lv. 1",
+                "description": "",
+                "constellationlevel": 1
+            },
+            {
+                "title": "",
+                "unlock": "Constellation Lv. 2",
+                "description": "",
+                "constellationlevel": 2
+            },
+            {
+                "title": "",
+                "unlock": "Constellation Lv. 3",
+                "description": "Increases the Level of  by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 3
+            },
+            {
+                "title": "",
+                "unlock": "Constellation Lv. 4",
+                "description": "",
+                "constellationlevel": 4
+            },
+            {
+                "title": "",
+                "unlock": "Constellation Lv. 5",
+                "description": "Increases the Level of  by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 5
+            },
+            {
+                "title": "",
+                "unlock": "Constellation Lv. 6",
+                "description": "",
+                "constellationlevel": 6
+            }
     ]
 }
