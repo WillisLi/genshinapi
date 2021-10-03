@@ -1,0 +1,27 @@
+{
+    "name": "Hydro",
+    "reactions": [
+        {
+            "name": "Electro-Charged",
+            "description": "When Hydro meets Electro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off.\nElectricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby.",
+            "elements": [
+                "Electro"
+            ]
+        },
+        {
+            "name": "Frozen",
+            "description": "When Hydro meets Cryo, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard.",
+            "elements": [
+                "Cryo"
+            ]
+        },
+        {
+            "name": "Vaporize",
+            "description": "When Hydro meets Pyro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs.\nVaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG.",
+            "effect": "Damage dealt by the Hydro attack is multiplied by 2.0.",
+            "elements": [
+                "Pyro"
+            ]
+        }
+    ]
+}

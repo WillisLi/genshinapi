@@ -1,6 +1,6 @@
 {
     "name": "Electro",
-    "effect": "Electro attacks can electrify bodies of water. Electro-Charged water deals Electro DMG to all beings in the AoE.",
+    "status": "Electro attacks can electrify bodies of water. Electro-Charged water deals Electro DMG to all beings in the AoE.",
     "reactions": [
         {
             "name": "Electro-Charged",

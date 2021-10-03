@@ -42,7 +42,7 @@ router.get('/:category/:name/:imageType', (req, res) => {
     //     .catch(() => {
     //         res.status(404).json({message: "Image not found."});
     //     })
-    res.sendFile(assetDirectory(`/${category}/${name}/${imageType}.png`));
+    res.sendFile(assetDirectory(`/${category}/${name}/${imageType}`));
 })
 
 module.exports = router;

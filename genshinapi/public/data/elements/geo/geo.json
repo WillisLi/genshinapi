@@ -1,0 +1,16 @@
+{
+    "name": "Geo",
+    "reactions": [
+        {
+            "name": "Crystallize",
+            "description": "When Geo comes into contact with Pyro/Hydro/Electro/Cryo elements, Crystallize will be triggered!",
+            "effect": "Generates an elemental shard that corresponds to the element that instigated the reaction, and, when picked up, the character gains an elemental shield for that respective element.",
+            "elements": [
+                "Pyro",
+                "Hydro",
+                "Electro",
+                "Cryo"
+            ]
+        }
+    ]
+}

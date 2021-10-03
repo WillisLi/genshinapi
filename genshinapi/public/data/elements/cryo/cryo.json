@@ -1,6 +1,7 @@
 {
     "name": "Cryo",
-    "effect": "Being hit by a Cryo attack leaves the victim affected by Cryo and decreases Movement SPD.",
+    "status": "Being hit by a Cryo attack leaves the victim affected by Cryo and decreases Movement SPD.",
+    "effect": "While affected by the Cryo status, movement and attack speed is decreased by 15%",
     "reactions": [
         {
             "name": "Frozen",
