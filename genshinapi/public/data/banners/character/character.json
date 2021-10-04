@@ -1,0 +1,211 @@
+[
+    {
+        "order": 1,
+        "name": "Ballad in Goblets",
+        "date": "September 28, 2020 - October 18, 2020",
+        "limited": "Venti",
+        "featured": [
+            "Barbara",
+            "Fischl",
+            "Xiangling"
+        ]
+    },
+    {
+        "order": 2,
+        "name": "Sparkling Steps",
+        "date": "October 20, 2020 - November 10, 2020",
+        "limited": "Klee",
+        "featured": [
+            "Noelle",
+            "Sucrose",
+            "Xingqiu"
+        ]
+    },
+    {
+        "order": 3,
+        "name": "Farewell of Snezhnaya",
+        "date": "November 11, 2020 - December 1, 2020",
+        "limited": "Tartaglia",
+        "featured": [
+            "Beidou",
+            "Diona",
+            "Ningguang"
+        ]
+    },
+    {
+        "order": 4,
+        "name": "Gentry of Hermitage",
+        "date": "December 1, 2020 - December 22, 2020",
+        "limited": "Zhongli",
+        "featured": [
+            "Chongyun",
+            "Razor",
+            "Xinyan"
+        ]
+    },
+    {
+        "order": 5,
+        "name": "Secretum Secretorum",
+        "date": "December 23, 2020 - January 12, 2021",
+        "limited": "Albedo",
+        "featured": [
+            "Bennett",
+            "Fischl",
+            "Sucrose"
+        ]
+    },
+    {
+        "order": 6,
+        "name": "Adrift in the Harbor",
+        "date": "January 12, 2021 - February 2, 2021",
+        "limited": "Ganyu",
+        "featured": [
+            "Noelle",
+            "Xiangling",
+            "Xingqiu"
+        ]
+    },
+    {
+        "order": 7,
+        "name": "Invitation to Mundane Life",
+        "date": "February 3, 2021 - February 17, 2021",
+        "limited": "Xiao",
+        "featured": [
+            "Beidou",
+            "Diona",
+            "Xinyan"
+        ]
+    },
+    {
+        "order": 8,
+        "name": "Dance of Lanterns",
+        "date": "February 17, 2021 - March 2, 2021",
+        "limited": "Keqing",
+        "featured": [
+            "Barbara",
+            "Bennett",
+            "Ningguang"
+        ]
+    },
+    {
+        "order": 9,
+        "name": "Moment of Bloom ",
+        "date": "March 2, 2021 - March 16, 2021",
+        "limited": "Hu Tao",
+        "featured": [
+            "Chongyun",
+            "Xiangling",
+            "Xingqiu"
+        ]
+    },
+    {
+        "order": 10,
+        "name": "Ballad in Goblets",
+        "date": "Venti",
+        "limited": "March 17, 2021 - April 6, 2021",
+        "featured": [
+            "Noelle",
+            "Razor",
+            "Sucrose"
+        ]
+    },
+    {
+        "order": 11,
+        "name": "Farewell of Snezhnaya",
+        "date": "April 6, 2021 - April 27, 2021",
+        "limited": "Tartaglia",
+        "featured": [
+            "Barbara",
+            "Fischl",
+            "Rosaria"
+        ]
+    },
+    {
+        "order": 12,
+        "name": "Gentry of Hermitage",
+        "date": "April 28, 2021 - May 18, 2021",
+        "limited": "Zhongli",
+        "featured": [
+            "Diona",
+            "Noelle",
+            "Yanfei"
+        ]
+    },
+    {
+        "order": 13,
+        "name": "Born of Ocean Swell",
+        "date": "May 18, 2021 - June 8, 2021",
+        "limited": "Eula",
+        "featured": [
+            "Beidou",
+            "Xingqiu",
+            "Xinyan"
+        ]
+    },
+    {
+        "order": 14,
+        "name": "Sparkling Steps",
+        "date": "June 9, 2021 - June 29, 2021",
+        "limited": "Klee",
+        "featured": [
+            "Barbara",
+            "Fischl",
+            "Sucrose"
+        ]
+    },
+    {
+        "order": 15,
+        "name": "Leaves in the Wind",
+        "date": "June 29, 2021 - July 20, 2021",
+        "limited": "Kazuha",
+        "featured": [
+            "Bennett",
+            "Razor",
+            "Rosaria"
+        ]
+    },
+    {
+        "order": 16,
+        "name": "The Heron's Court",
+        "date": "July 21, 2021 - August 10, 2021",
+        "limited": "Ayaka",
+        "featured": [
+            "Chongyun",
+            "Ningguang",
+            "Yanfei"
+        ]
+    },
+    {
+        "order": 17,
+        "name": "Tapestry of Golden Flames",
+        "date": "August 10, 2021 - August 31, 2021",
+        "limited": "Yoimiya",
+        "featured": [
+            "Diona",
+            "Sayu",
+            "Xinyan"
+        ]
+    },
+    {
+        "order": 18,
+        "name": "Reign of Serenity",
+        "date": "September 1, 2021 - September 21, 2021",
+        "limited": "Raiden Shogun",
+        "featured": [
+            "Sara",
+            "Sucrose",
+            "Xiangling"
+        ]
+    },
+    {
+        "order": 19,
+        "name": "Drifting Luminescence/",
+        "date": "September 21, 2021 - October 12, 2021",
+        "limited": "Kokomi",
+        "featured": [
+            "Beidou",
+            "Rosaria",
+            "Xingqiu"
+        ]
+    }
+]
