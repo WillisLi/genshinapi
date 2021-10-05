@@ -28,7 +28,7 @@
         {
             "title": "Oceanborne",
             "type": "Normal Attack",
-            "description": "Normal Attack\nPerform up to 5 consecutive strikes.\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "description": "Normal Attack\nPerform up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
             "info": [
                 {
                     "type": "1-Hit DMG",

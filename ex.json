@@ -28,50 +28,46 @@
         {
             "title": "",
             "type": "Normal Attack",
-            "description": "",
+            "description": "Normal Attack\nd\n\nCharged Attack\nd\n\nPlunging Attack\nd",
             "info": [
                 {
                     "type": "1-Hit DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "2-Hit DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "3-Hit DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "4-Hit DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "5-Hit DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "Aimed Shot",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "Fully-Charged Aimed Shot",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "Charged Attack DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "Charged Attack Spinning DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "Charged Attack Final DMG",
-                    "value": "%"
-                },
-                {
-                    "type": "Charged Attack Stamina Cost",
                     "value": ""
                 },
                 {
@@ -79,12 +75,16 @@
                     "value": "s"
                 },
                 {
+                    "type": "Charged Attack Stamina Cost",
+                    "value": ""
+                },
+                {
                     "type": "Plunge DMG",
-                    "value": "%"
+                    "value": ""
                 },
                 {
                     "type": "Low/High Plunge DMG",
-                    "value": "%/%"
+                    "value": "/"
                 }
             ]
         },

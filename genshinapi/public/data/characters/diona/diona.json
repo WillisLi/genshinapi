@@ -1,0 +1,190 @@
+{
+    "name": "Diona",
+    "vision": "Cryo",
+    "weapon": "Bow",
+    "ascensionStat": "Cryo DMG Bonus",
+    "rarity": 4,
+    "nation": "Mondstadt",
+    "affiliation": "The Cat's Tail",
+    "birthday": "01/18",
+    "constellation": "Feles",
+    "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
+    "charAscendMaterials": [
+        {
+            "gemstone": "Shivada Jade",
+            "bossDrop": "Hoarfrost Core",
+            "specialty": "Calla Lily",
+            "secondary": "Arrowhead"
+        }
+    ],
+    "talentAscMaterials": [
+        {
+            "book": "Freedom",
+            "weeklyBossDrop": "Shard of a Foul Legacy",
+            "secondary": "Arrowhead"
+        }
+    ],
+    "combatTalents": [
+        {
+            "title": "Kätzlein Style",
+            "type": "Normal Attack",
+            "description": "Normal Attack\nPerform up to 5 consecutive shots with a bow.\n\nCharged Attack\nPerform a more precise Aimed Shot with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+            "info": [
+                {
+                    "type": "1-Hit DMG",
+                    "value": "71.4%"
+                },
+                {
+                    "type": "2-Hit DMG",
+                    "value": "66.3%"
+                },
+                {
+                    "type": "3-Hit DMG",
+                    "value": "90.1%"
+                },
+                {
+                    "type": "4-Hit DMG",
+                    "value": "85%"
+                },
+                {
+                    "type": "5-Hit DMG",
+                    "value": "106.25%"
+                },
+                {
+                    "type": "Aimed Shot",
+                    "value": "86.7%"
+                },
+                {
+                    "type": "Fully-Charged Aimed Shot",
+                    "value": "223.2%"
+                },
+                {
+                    "type": "Plunge DMG",
+                    "value": "112.34%"
+                },
+                {
+                    "type": "Low/High Plunge DMG",
+                    "value": "224.62%/280.57%"
+                }
+            ]
+        },
+        {
+            "title": "Icy Paws",
+            "type": "Elemental Skill",
+            "description": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\nTap\nRapidly fires off 2 Icy Paws.\n\nHold\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.",
+            "excerpt": "When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
+            "info": [
+                {
+                    "type": "Icy Paw DMG",
+                    "value": "75.46% per Paw"
+                },
+                {
+                    "type": "Base Shield DMG Absorption",
+                    "value": "12.96% Max HP + 1524"
+                },
+                {
+                    "type": "Duration",
+                    "value": "2.4s per Paw"
+                },
+                {
+                    "type": "Tapping CD",
+                    "value": "6.0s"
+                },
+                {
+                    "type": "Holding CD",
+                    "value": "15.0s"
+                }
+            ]
+        },
+        {
+            "title": "Signature Mix",
+            "type": "Elemental Burst",
+            "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\n\nDrunken Mist\n• Deals continuous Cryo DMG to opponents within the AoE.\n• Continuously regenerates the HP of characters within the AoE.",
+            "excerpt": "A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.",
+            "info": [
+                {
+                    "type": "Skill DMG",
+                    "value": "144%"
+                },
+                {
+                    "type": "Continuous Field DMG",
+                    "value": "94.75%"
+                },
+                {
+                    "type": "HP Regeneration Over Time",
+                    "value": "9.6% Max HP + 1129"
+                },
+                {
+                    "type": "Duration",
+                    "value": "12.0s"
+                },
+                {
+                    "type": "CD",
+                    "value": "20.0s"
+                },
+                {
+                    "type": "Energy Cost",
+                    "value": "80"
+                }
+            ]
+        }
+    ],
+    "passiveTalents": [
+            {
+                "title": "Cat's Tail Secret Menu",
+                "requirement": "Unlocks at Character Ascension Phase 1",
+                "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+                "ascensionlevel": 1
+            },
+            {
+                "title": "Drunkards' Farce",
+                "requirement": "Unlocks at Character Ascension Phase 4",
+                "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
+                "ascensionlevel": 4
+            },
+            {
+                "title": "Complimentary Bar Food",
+                "requirement": "None",
+                "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+                "ascensionlevel": 0
+            }
+    ],
+    "constellations": [
+            {
+                "title": "A Lingering Flavor",
+                "unlock": "Constellation Lv. 1",
+                "description": "Regenerates 15 Energy for Diona after the effects of ",
+                "constellationlevel": 1
+            },
+            {
+                "title": "Shaken, Not Purred",
+                "unlock": "Constellation Lv. 2",
+                "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%.\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
+                "constellationlevel": 2
+            },
+            {
+                "title": "A—Another Round?",
+                "unlock": "Constellation Lv. 3",
+                "description": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 3
+            },
+            {
+                "title": "Wine Industry Slayer",
+                "unlock": "Constellation Lv. 4",
+                "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%",
+                "constellationlevel": 4
+            },
+            {
+                "title": "Double Shot, On The Rocks",
+                "unlock": "Constellation Lv. 5",
+                "description": "Increases the Level of Icy Paws by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 5
+            },
+            {
+                "title": "Cat's Tail Closing Time",
+                "unlock": "Constellation Lv. 6",
+                "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\n• Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\n• Elemental Mastery increased by 200 when HP is above 50%.",
+                "constellationlevel": 6
+            }
+    ]
+}
