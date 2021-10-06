@@ -1,0 +1,218 @@
+{
+    "name": "Eula",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "ascensionStat": "CRIT DMG",
+    "rarity": 5,
+    "nation": "Mondstadt",
+    "affiliation": "Knights of Favonius",
+    "birthday": "10/25",
+    "constellation": "Aphros Delos",
+    "description": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+    "charAscendMaterials": [
+        {
+            "gemstone": "Shivada Jade",
+            "bossDrop": "Crystalline Bloom",
+            "specialty": "Dandelion Seed",
+            "secondary": "Mask"
+        }
+    ],
+    "talentAscMaterials": [
+        {
+            "book": "Resistance",
+            "weeklyBossDrop": "Dragon Lord's Crown",
+            "secondary": "Mask"
+        }
+    ],
+    "combatTalents": [
+        {
+            "title": "Favonius Bladework - Edel",
+            "type": "Normal Attack",
+            "description": "Normal Attack\nPerform up to 5 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+            "info": [
+                {
+                    "type": "1-Hit DMG",
+                    "value": "177.38%"
+                },
+                {
+                    "type": "2-Hit DMG",
+                    "value": "184.93%"
+                },
+                {
+                    "type": "3-Hit DMG",
+                    "value": "112.28% + 112.28%"
+                },
+                {
+                    "type": "4-Hit DMG",
+                    "value": "222.67%"
+                },
+                {
+                    "type": "5-Hit DMG",
+                    "value": "142% + 142%"
+                },
+                {
+                    "type": "Charged Attack Spinning DMG",
+                    "value": "136%"
+                },
+                {
+                    "type": "Charged Attack Final DMG",
+                    "value": "245.91%"
+                },
+                {
+                    "type": "Charged Attack Stamina Cost",
+                    "value": "40"
+                },
+                {
+                    "type": "Max Duration",
+                    "value": "5.0s"
+                },
+                {
+                    "type": "Plunge DMG",
+                    "value": "147.44%"
+                },
+                {
+                    "type": "Low/High Plunge DMG",
+                    "value": "294.82%/368.25%"
+                }
+            ]
+        },
+        {
+            "title": "Icetide Vortex",
+            "type": "Elemental Skill",
+            "description": "Sharp frost, swift blade.\n\nTap\nSlashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\n\nGrimheart\nIncreases Eula's resistance to interruption and DEF.\n\nHold\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents.",
+            "excerpt": "So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.",
+            "info": [
+                {
+                    "type": "Tapping DMG",
+                    "value": "263.52%"
+                },
+                {
+                    "type": "Hold DMG",
+                    "value": "442.08%"
+                },
+                {
+                    "type": "Icewhirl Brand DMG",
+                    "value": "172.8%"
+                },
+                {
+                    "type": "DEF Bonus",
+                    "value": "30% Per Stack"
+                },
+                {
+                    "type": "Grimheart Duration",
+                    "value": "18.0s"
+                },
+                {
+                    "type": "Physical RES Decrease",
+                    "value": "25%"
+                },
+                {
+                    "type": "Cryo RES Decrease",
+                    "value": "25%"
+                },
+                {
+                    "type": "RES Decrease Duration",
+                    "value": "7.0s"
+                },
+                {
+                    "type": "Tapping CD",
+                    "value": "4.0s"
+                },
+                {
+                    "type": "CD (hold)",
+                    "value": "10.0s"
+                }
+            ]
+        },
+        {
+            "title": "Glacial Illumination",
+            "type": "Elemental Burst",
+            "description": "Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\nIf Eula leaves the field, the Lightfall Sword will explode immediately.",
+            "excerpt": "It is easy to sink. But even so, she desires to freeze this oncoming tide.",
+            "info": [
+                {
+                    "type": "Skill DMG",
+                    "value": "442.08%"
+                },
+                {
+                    "type": "Lightfall Sword Base DMG",
+                    "value": "725.56%"
+                },
+                {
+                    "type": "DMG Per Stack",
+                    "value": "148.24%"
+                },
+                {
+                    "type": "Maximum Stacks",
+                    "value": "30"
+                },
+                {
+                    "type": "CD",
+                    "value": "20.0s"
+                },
+                {
+                    "type": "Energy Cost",
+                    "value": "80"
+                }
+            ]
+        }
+    ],
+    "passiveTalents": [
+            {
+                "title": "Roiling Rime",
+                "requirement": "Unlocks at Character Ascension Phase 1",
+                "description": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination.",
+                "ascensionlevel": 1
+            },
+            {
+                "title": "Wellspring of War-Lust",
+                "requirement": "Unlocks at Character Ascension Phase 4",
+                "description": "Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
+                "ascensionlevel": 4
+            },
+            {
+                "title": "Aristocratic Introspection",
+                "requirement": "None",
+                "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+                "ascensionlevel": 0
+            }
+    ],
+    "constellations": [
+            {
+                "title": "Tidal Illusion",
+                "unlock": "Constellation Lv. 1",
+                "description": "Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+                "constellationlevel": 1
+            },
+            {
+                "title": "Lady of Seafoam",
+                "unlock": "Constellation Lv. 2",
+                "description": "Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Tapping CD.",
+                "constellationlevel": 2
+            },
+            {
+                "title": "Lawrence Pedigree",
+                "unlock": "Constellation Lv. 3",
+                "description": "Increases the Level of Glacial Illumination by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 3
+            },
+            {
+                "title": "The Obstinacy of One's Inferiors",
+                "unlock": "Constellation Lv. 4",
+                "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+                "constellationlevel": 4
+            },
+            {
+                "title": "Chivalric Quality",
+                "unlock": "Constellation Lv. 5",
+                "description": "Increases the Level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 5
+            },
+            {
+                "title": "Noble Obligation",
+                "unlock": "Constellation Lv. 6",
+                "description": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+                "constellationlevel": 6
+            }
+    ]
+}
