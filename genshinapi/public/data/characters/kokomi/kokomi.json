@@ -1,0 +1,192 @@
+{
+    "name": "Sangonomiya Kokomi",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "ascensionStat": "Hydro DMG Bonus",
+    "rarity": 5,
+    "nation": "Inazuma",
+    "affiliation": "Watatsumi Island",
+    "birthday": "02/22",
+    "constellation": "Dracaena Somnolenta",
+    "description": "The Divine Priestess of Watatsumi Island. All of the island's affairs are at this young lady's fingertips.",
+    "charAscendMaterials": [
+        {
+            "gemstone": "Varunada Lazurite",
+            "bossDrop": "Dew of Repudiation",
+            "specialty": "Sango Pearl",
+            "secondary": "Spectral"
+        }
+    ],
+    "talentAscMaterials": [
+        {
+            "book": "Transience",
+            "weeklyBossDrop": "Hellfire Butterfly",
+            "secondary": "Spectral"
+        }
+    ],
+    "combatTalents": [
+        {
+            "title": "The Shape of Water",
+            "type": "Normal Attack",
+            "description": "Normal Attack\nPerforms up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\n\nPlunging Attack\nGathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
+            "info": [
+                {
+                    "type": "1-Hit DMG",
+                    "value": "123.08%"
+                },
+                {
+                    "type": "2-Hit DMG",
+                    "value": "110.77%"
+                },
+                {
+                    "type": "3-Hit DMG",
+                    "value": "169.75%"
+                },
+                {
+                    "type": "Charged Attack DMG",
+                    "value": "266.98%"
+                },
+                {
+                    "type": "Charged Attack Stamina Cost",
+                    "value": "50"
+                },
+                {
+                    "type": "Plunge DMG",
+                    "value": "112.34%"
+                },
+                {
+                    "type": "Low/High Plunge DMG",
+                    "value": "224.62%/280.57%"
+                }
+            ]
+        },
+        {
+            "title": "Kurage's Oath",
+            "type": "Elemental Skill",
+            "description": "Summons a bake-kurage created from water that can heal her allies. Using this skill will apply the Wet status to Sangonomiya Kokomi.\n\nBake-Kurage\n Deals Hydro DMG to surrounding opponents and heal nearby active characters at fixed intervals. This healing is based on Kokomi's Max HP.",
+            "excerpt": "Kokomi needs timely refreshment in order to maintain optimal work efficiency.",
+            "info": [
+                {
+                    "type": "Regeneration",
+                    "value": "7.92% Max HP + 932"
+                },
+                {
+                    "type": "Ripple DMG",
+                    "value": "196.54%"
+                },
+                {
+                    "type": "Duration",
+                    "value": "12.0s"
+                },
+                {
+                    "type": "CD",
+                    "value": "20.0s"
+                }
+            ]
+        },
+        {
+            "title": "Nereid's Ascension",
+            "type": "Elemental Burst",
+            "description": "The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a Ceremonial Garment made from the flowing waters of Sangonomiya.\n\nCeremonial Garment\n• Sangonomiya Kokomi's Normal Attack, Charged Attack and Bake-Kurage DMG are increased based on her Max HP.\n• When her Normal and Charged Attacks hit opponents, Kokomi will restore HP for all nearby party members, and the amount restored is based on her Max HP.\n• Increases Sangonomiya Kokomi's resistance to interruption and allows her to move on the water's surface.\n\nThese effects will be cleared once Sangonomiya Kokomi leaves the field.",
+            "excerpt": "Clear light coalesces into robes around Her Excellency, Sangonomiya Kokomi, reflecting her magnificent form.",
+            "info": [
+                {
+                    "type": "Skill DMG",
+                    "value": "18.75% Max HP"
+                },
+                {
+                    "type": "Normal Attack DMG Bonus",
+                    "value": "8.71% Max HP"
+                },
+                {
+                    "type": "Charged Attack DMG Bonus",
+                    "value": "12.2% Max HP"
+                },
+                {
+                    "type": "Bake-Kurage DMG Bonus",
+                    "value": "12.77% Max HP"
+                },
+                {
+                    "type": "HP Regeneration Per Hit",
+                    "value": "1.45% Max HP + 169"
+                },
+                {
+                    "type": "Duration",
+                    "value": "10.0s"
+                },
+                {
+                    "type": "CD",
+                    "value": "18.0s"
+                },
+                {
+                    "type": "Energy Cost",
+                    "value": "70"
+                }
+            ]
+        }
+    ],
+    "passiveTalents": [
+            {
+                "title": "Tamanooya's Casket",
+                "requirement": "Unlocks at Character Ascension Phase 1",
+                "description": "If Sangonomiya Kokomi's own Bake-Kurage are on the field when she uses Nereid's Ascension, the Bake-Kurage's duration will be refreshed.",
+                "ascensionlevel": 1
+            },
+            {
+                "title": "Song of Pearls",
+                "requirement": "Unlocks at Character Ascension Phase 4",
+                "description": "While donning the Ceremonial Garment created by Nereid's Ascension, the Normal and Charged Attack DMG Bonus Sangonomiya Kokomi gains based on her Max HP will receive a further increase based on 15% of her Healing Bonus.",
+                "ascensionlevel": 4
+            },
+            {
+                "title": "Princess of Watatsumi",
+                "requirement": "None",
+                "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+                "ascensionlevel": 0
+            },
+            {
+                "title": "Flawless Strategy",
+                "requirement": "None",
+                "description": "Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate.",
+                "ascensionlevel": 0
+            }
+    ],
+    "constellations": [
+            {
+                "title": "At Water's Edge",
+                "unlock": "Constellation Lv. 1",
+                "description": "While donning the Ceremonial Garment created by Nereid's Ascension, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a swimming fish to deal 30% of her Max HP as Hydro DMG.\nThis DMG is not considered Normal Attack DMG.",
+                "constellationlevel": 1
+            },
+            {
+                "title": "The Clouds Like Waves Rippling",
+                "unlock": "Constellation Lv. 2",
+                "description": "Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:\n• Kurage's Oath Bake-Kurage: 4.5% of Kokomi's Max HP.\n• Nereid's Ascension Normal and Charged Attacks: 0.6% of Kokomi's Max HP.",
+                "constellationlevel": 2
+            },
+            {
+                "title": "The Moon, A Ship O'er the Seas",
+                "unlock": "Constellation Lv. 3",
+                "description": "Increases the Level of Nereid's Ascension by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 3
+            },
+            {
+                "title": "The Moon Overlooks the Waters",
+                "unlock": "Constellation Lv. 4",
+                "description": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.\nThis effect can occur once every 0.2s.",
+                "constellationlevel": 4
+            },
+            {
+                "title": "All Streams Flow to the Sea",
+                "unlock": "Constellation Lv. 5",
+                "description": "Increases the Level of Kurage's Oath by 3.\nMaximum upgrade level is 15.",
+                "constellationlevel": 5
+            },
+            {
+                "title": "Sango Isshin",
+                "unlock": "Constellation Lv. 6",
+                "description": "While donning the Ceremonial Garment created by Nereid's Ascension, Sangonomiya Kokomi gains a 40% Hydro DMG Bonus for 4s after her Normal and Charged Attacks heal a character with 80% or more HP.",
+                "constellationlevel": 6
+            }
+    ]
+}
