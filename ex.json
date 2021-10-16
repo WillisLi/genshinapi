@@ -161,7 +161,7 @@
             {
                 "title": "",
                 "unlock": "Constellation Lv. 3",
-                "description": "Increases the Level of  by 3.\nMaximum upgrade level is 15.",
+                "description": "Increases the Level of \nMaximum upgrade level is 15.",
                 "constellationlevel": 3
             },
             {
@@ -173,7 +173,7 @@
             {
                 "title": "",
                 "unlock": "Constellation Lv. 5",
-                "description": "Increases the Level of  by 3.\nMaximum upgrade level is 15.",
+                "description": "Increases the Level of \nMaximum upgrade level is 15.",
                 "constellationlevel": 5
             },
             {

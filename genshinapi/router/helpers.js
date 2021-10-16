@@ -1,42 +1,62 @@
-const { assetDirectory, dataDirectory} = require('./directories')
-const fs = require('fs')
-const path = require('path');
+const AWS = require('aws-sdk');
+require("dotenv").config();
 
-const getCategoryList = () => {
-    const categories = fs.readdirSync(dataDirectory(''));
-    return categories
-}
+const cloudfront = new AWS.CloudFront();
 
-const getEntityList = (category) => {
-    const entities = fs.readdirSync(dataDirectory(`/${category}`));
-    return entities;
-}
+AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_KEY,
+    region: process.env.AWS_REGION,
+});
 
-const getEntity = (category, name) => {
-    const data = fs.readFile(dataDirectory(`/${category}/${name}`, (error, files) => {
-        if (error) {
-            res.status(500).send({message: "Unable to scan files!"});
+const s3 = new AWS.S3();
+
+const getList = async (dir, pfx, delim) => {
+    try {
+        const params = {
+            Bucket: process.env.S3_BUCKET,
+            Delimiter: `${delim}`,
+            Prefix: `public/${dir}/${pfx}`
         }
-        return files;
-    }))
+        const { CommonPrefixes } = await s3.listObjectsV2(params).promise()
+        const folders = CommonPrefixes.map(obj => obj["Prefix"].replace(`${params.Prefix}`, "").slice(0, -1))
+        return folders
+    }
+    catch(error) {
+        res.status(500).json({message: "Could not get list of objects."})
+    }
 }
 
-const getImageList = (category, name) => {
-    const images = fs.readdirSync(assetDirectory(`/${category}/${name}`));
-    for (let image = 0; image < images.length; image++) {
-        images[image] = path.parse(images[image]).name
+const getEntity = async (category, name) => {
+    try {
+        const params = {
+            Bucket: process.env.S3_BUCKET,
+            Key: `public/data/${category}/${name}/${name}.json`
+        }
+        const data = await s3.getObject(params).promise()
+
+        return JSON.parse(data.Body.toString())
     }
-    return images;
-} 
+    catch(error) {
+        res.status(404).json({message: "Entity with that name does not exist in this category."})
+    }
+}
 
-const getImageByType = (category, name, type) =>{
-
+const getImage = async (category, name, type) =>{
+    try {
+        const params = {
+            Bucket: process.env.S3_BUCKET,
+            Key: `public/assets/${category}/${name}/${type}.png`
+        }
+        return s3.getObject(params).createReadStream()
+    }
+    catch(error) {
+        res.status(404).json({message: "Entity with that name does not exist in this category."})
+    }
 }
 
 module.exports = {
-    getCategoryList,
-    getEntityList,
+    getList,
     getEntity,
-    getImageList,
-    getImageByType,
+    getImage,
 };
