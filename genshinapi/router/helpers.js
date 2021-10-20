@@ -1,7 +1,6 @@
 const AWS = require('aws-sdk');
+const keyv = require('keyv')
 require("dotenv").config();
-
-const cloudfront = new AWS.CloudFront();
 
 AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -9,9 +8,16 @@ AWS.config.update({
     region: process.env.AWS_REGION,
 });
 
+const cache = new keyv();
 const s3 = new AWS.S3();
 
 const getList = async (dir, pfx, delim) => {
+    const catsList = await cache.get(`${pfx}`);
+    if (catsList) {
+        return catsList
+    } else {
+        console.log('List of Objects Not Cached')
+    }
     try {
         const params = {
             Bucket: process.env.S3_BUCKET,
@@ -20,6 +26,7 @@ const getList = async (dir, pfx, delim) => {
         }
         const { CommonPrefixes } = await s3.listObjectsV2(params).promise()
         const folders = CommonPrefixes.map(obj => obj["Prefix"].replace(`${params.Prefix}`, "").slice(0, -1))
+        await cache.set(`${pfx}`, folders);
         return folders
     }
     catch(error) {
@@ -28,14 +35,21 @@ const getList = async (dir, pfx, delim) => {
 }
 
 const getEntity = async (category, name) => {
+    const entity = await cache.get(`${name}`);
+    if (entity) {
+        return entity
+    } else {
+        console.log('Entity Not Cached')
+    }
     try {
         const params = {
             Bucket: process.env.S3_BUCKET,
             Key: `public/data/${category}/${name}/${name}.json`
         }
         const data = await s3.getObject(params).promise()
-
-        return JSON.parse(data.Body.toString())
+        const parsed = JSON.parse(data.Body.toString())
+        await cache.set(`${name}`, parsed);
+        return parsed
     }
     catch(error) {
         res.status(404).json({message: "Entity with that name does not exist in this category."})
