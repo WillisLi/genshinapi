@@ -1,0 +1,29 @@
+{
+    "name": "",
+    "rarity": [4, 5],
+    "setBonus": [
+        "",
+        ""
+    ],
+    "dropLocations": [
+        {
+            "domain": [
+                ""
+            ]
+        },
+        {
+            "entity": [
+                
+            ]
+        }
+    ],
+    "setPieceNames": [
+        {
+            "flower": "",
+            "plume": "",
+            "sands": "",
+            "goblet": "",
+            "circlet": ""
+        }
+    ]
+}

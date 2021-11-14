@@ -97,7 +97,7 @@
     },
     {
         "order": 9,
-        "name": "Moment of Bloom ",
+        "name": "Moment of Bloom",
         "date": "March 2, 2021 - March 16, 2021",
         "version": "1.3",
         "limited": "Hu Tao",
@@ -237,6 +237,18 @@
             "Chongyun",
             "Ningguang",
             "Yanfei"
+        ]
+    },
+    {
+        "order": 21,
+        "name": "Moment of Bloom",
+        "date": "November 2, 2021 - November 23, 2021",
+        "version": "2.1",
+        "limited": "Hu Tao",
+        "featured": [
+            "Diona",
+            "Sayu",
+            "Thoma"
         ]
     }
 ]

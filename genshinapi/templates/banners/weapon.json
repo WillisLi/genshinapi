@@ -302,5 +302,21 @@
             "Favonius Sword",
             "Rust"
         ]
+    },
+    {
+        "order": 20,
+        "date": "November 2, 2021 - November 23, 2021",
+        "version": "2.1",
+        "limited": [
+            "Elegy for the End",
+            "Staff of Homa"
+        ],
+        "featured": [
+            "Mouun's Moon",
+            "Rainslasher",
+            "Sacrificial Sword",
+            "The Widsith",
+            "Wavebreaker's Fin"
+        ]
     }
 ]
